@@ -34,7 +34,7 @@ nodeAgent:
     account: "602401143452"
     pullPolicy: Always
     # Set to use custom image
-    override: "public.ecr.aws/s4u4f8g9/amazon-k8s-cni:v1.15.0"
+    override:
     # override: "repo/org/image:tag"
   securityContext:
     capabilities:
@@ -57,7 +57,7 @@ image:
   account: "602401143452"
   pullPolicy: Always
   # Set to use custom image
-  override:
+  override: "public.ecr.aws/s4u4f8g9/amazon-k8s-cni:v1.15.0"
   # override: "repo/org/image:tag"
 
 # The CNI supports a number of environment variable settings
